@@ -1,0 +1,12 @@
+1. Neue componente erstellen -> ng g c components/neueComponente (<- Pfad)
+1.1 [Registrierung unter app.module.ts]
+2. Routing hinzufügen: 
+
+import { neueComponent } from './components/neue-component/neue-component.component';
+
+const routes: Routes = [
+  {
+    path: "neueComponente",
+    component: neueComponenteComponent,
+  }
+];
